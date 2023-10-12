@@ -26,7 +26,7 @@ def play_one_move(location: Tuple[int]) -> Tuple[int]:
     Returns updated location.
     """
 
-    valid_directions = find_directions(location)
+    valid_directions = find_directions(location)[0]
     direction = get_direction(valid_directions)
 
     if direction in valid_directions:
