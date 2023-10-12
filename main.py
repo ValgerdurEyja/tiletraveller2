@@ -1,5 +1,6 @@
 from typing import Tuple
 
+# halló frá Arnari
 
 # Constants
 NORTH = "n"
